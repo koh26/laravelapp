@@ -14,7 +14,7 @@ use Illuminate\Http\Request;
         EOF;
         $body = '</head><body>';
         $end = '</body></html>';
-        function tag($tag, $txt) {
+        function tag($tag, $txt){
             return "<{$tag}>" . $txt . "</{$tag}>";
         }
 
