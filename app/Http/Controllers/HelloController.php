@@ -20,7 +20,7 @@ use Illuminate\Http\Request;
 
         class HelloController extends Controller
         {
-            public function index(){
+            public function index() {
                 global $head, $style, $body, $end;
 
                 $html = $head . tag('title','Hello/index') . $style . $body . tag('h1','Index') . tag('p','this is Index page') . '<a href="/hello/other">go to Other page</a>' . $end;
