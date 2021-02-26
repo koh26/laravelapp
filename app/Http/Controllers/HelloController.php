@@ -16,7 +16,7 @@ use Illuminate\Http\Response;
                 <head>
                 <title>Hello/Index</title>
                 <style>
-                body {font-size:30pt; color:#999; }
+                body {font-size:20pt; color:#999; }
                 h1 { font-size:30pt; text-align:rigth; color:#eee; margin:-50px 0px -120px 0px; }
                 </style>
                 </head>
